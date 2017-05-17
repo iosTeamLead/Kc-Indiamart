@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  Grocery App
+//
+//  Created by Eweb-A1-iOS on 16/09/16.
+//  Copyright © 2016 A1 professionals. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define appDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+#import "AppDelegate.h"
+#import "MMDrawer.h"
+#import "UITextView+Placeholder.h"
+#endif /* PrefixHeader_pch */
